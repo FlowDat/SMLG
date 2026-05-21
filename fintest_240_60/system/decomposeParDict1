@@ -1,0 +1,25 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 | OpenFOAM: The Open Source CFD Toolbox           |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    object      decomposeParDict;
+}
+numberOfSubdomains 32;
+
+method 		scotch;
+//method          hierarchical;
+
+hierarchicalCoeffs
+{
+    n           (2 1 1);     // x y z  -> aligns with 8:2:1 domain
+    delta       0.001;
+    order       xyz;
+}
+
+// optional, keeps proc sizes balanced
+distributed    no;
+roots          ( );
