@@ -31,7 +31,7 @@ Each Reynolds number file contains the following variables:
 - coordinates: Spatial coordinates of the flow field
 - variables: List of variable names (U:0, U:1, p, s)
 - original_data: Original simulation data
-- reconstructed_data: SPECTRE reconstructed data
+- reconstructed_data: SPECTRE predicted data
 - mean_field: Time-averaged mean field
 - temporal_coefficients: Temporal coefficients from reduced-order model
 - time: Time array
