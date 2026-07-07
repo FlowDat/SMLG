@@ -1,5 +1,5 @@
 ## NOTE
-**Before running "python run_analysis1.py" copy the contents from 10.5281/zenodo.21234013 directly into the data directory**
+**Before running "python run_analysis1.py" copy the contents from "https://zenodo.org/records/21234013" directly into the data directory**
 
 ## Data Description
 
